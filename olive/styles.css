@@ -1,0 +1,345 @@
+*{
+    font-family: 'Katibeh', serif;
+    font-size:x-large;
+}
+body {
+    margin: 0;
+    flex-wrap: wrap;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #15150b46;
+    padding: 0 15px ;
+    margin-top: 10px;
+}
+.navbar a{
+    font-family: 'Katibeh', serif;
+    font-size:25px;
+}
+.slogan {
+    width: 250px;
+    cursor: pointer;
+}
+.olive-logo {
+    width: 50px;
+    cursor: pointer;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list a{
+    text-decoration: none;
+    color: #022205;
+}
+.nav-list {
+    display: flex;
+    gap: 20px;
+}
+body{
+    background-color: #646539;
+    width: 100%;
+    height: 100%;
+}
+.pagetitel h1{
+    color: white;
+    font-family: 'Katibeh', serif;
+    font-size:60px;
+    font-weight: 190;
+}
+.pagetitel h1 span{
+    color: #05370a;
+    font-family: 'Katibeh', serif;
+    
+}
+.pagetitel{
+   
+    position: absolute; 
+    right: 0 ;
+    text-align: end;
+    margin-right:20px ;
+}
+.plante{
+    font-size:60px;
+}
+.pagetitel h3{
+    font-family: 'Katibeh', serif;
+    color: #05370a;
+    font-weight: 200;
+    font-size:30px;
+}
+.imge1 img{
+    border-radius:10%;
+}
+.imgs h3{
+    margin: 0;
+}
+.imge1 h3{
+    font-family: 'Katibeh', serif;
+    color: #ffffff;
+    font-weight: 200;
+    font-size:20px;
+}
+.imge2 img{
+    border-radius:10%;
+    width:274px;
+    height:184px;
+}
+.imge2 h3{
+    font-family: 'Katibeh', serif;
+    color: #ffffff;
+    font-weight: 200;
+    font-size:20px;
+}
+.imge3 img{
+    border-radius:10%;
+    width:274px;
+    height:184px;
+}
+.imge3 h3{
+    font-family: 'Katibeh', serif;
+    color: #ffffff;
+    font-weight: 200;
+    font-size:20px;
+} 
+.imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4d4d2aaa;
+    width: 100vw;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0 ;
+}
+.btn {
+    display: inline-block;
+    align-items:center;
+    font-family: 'Katibeh', serif;
+    color: #05370a7c;
+    font-size:25px;
+    font-weight: 200;
+    padding: 10px 50px;
+    background-color: #05370a92;
+    color: #fff;
+    border-radius: 18px;
+    transition: 0.2s;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.btn:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;}
+.btn:active{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+
+.main{
+    height: 100vh;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+footer {
+    background-color: #646539;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(206, 230, 174, 0.32);
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    color: #022205;
+  
+}
+.barr{
+    background-color: #363719a0;
+}
+
+.header{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+.S-header{
+    font-size: 20px;
+    color: #05370a6e;
+    width: 100%;
+    padding: auto;
+    text-align: center;
+}
+.pic{
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 230px;
+  
+}
+
+.pic-parent {
+    position: relative;
+}
+
+.pic-content {
+    width: 600px;
+    top: -90px;
+    background-color: rgba(206, 230, 174, 0.32);
+    margin-left: 315px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.pic-content h1{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+h4{
+    font-family: 'Katibeh', serif;
+    font-size:12px;
+    text-align: center;
+}
+.pic-content p{
+    font-size: 30px;
+    width: 100%;
+ 
+}
+.table{
+    background-color: #646539;
+    border-radius: 10%;
+    width: 350px;
+    height: 200px;
+    justify-content: center;
+    padding-left: 25px;
+    margin-left: 120px;
+}
+.table p{
+    font-family: 'Katibeh', serif;
+    text-align:start;
+    
+}
+
+.test{
+    position: relative;
+}
+.photo {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.maroc{
+display: flex;
+align-content: center;
+
+}
+.content-maroc {
+    width: 50%;
+    backdrop-filter: blur(60px);
+    background-color: rgba(206, 230, 174, 0.32);
+    margin-left: 50px;
+    padding: 20px ;
+    height: fit-content;
+    border-radius: 2%;
+}
+.content-maroc-img{
+    width: 50%;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+}
+.content-maroc-img{
+    height: 100%;
+}
+.content-maroc p{
+    margin: 0;
+    color: #022205;
+}
+.cent{
+    width: 100vw;
+    text-align: center;
+}
+.zitouna-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(206, 230, 174, 0.32);
+    width: 1140px;
+    margin:50px auto;
+    padding: 20px;
+    color: #022205;
+  
+}
+.titre{
+    font-size: 20px;
+    color: #05370a;
+    width: 100%;
+    padding: auto;
+    text-align: center;
+}
+.livres img{
+    margin-left: 95px;
+}
+.sujet{
+    width: 600px;
+    top: -90px;
+    background-color: rgba(206, 230, 174, 0.32);
+    margin-left: 315px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.sujet h1{
+    display: flex;
+    justify-content: center;
+}
+.oo1{
+   height: 400px;
+   opacity: 90%;
+   border-radius: 5px;
+   opacity: 90%;
+}
+.oo2{
+   height: 400px;
+   margin-left: 30px;
+   opacity: 90%;
+   border-radius: 5px;
+}
+.oo3{
+    height: 400px;
+    margin-left: ;
+    opacity: 90%;
+    border-radius: 5px;
+ }
+ .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 450px;
+    margin-top: 50px;
+    background-color: #0222056f;
+    color: white;
+    border-radius: 20%;
+ }
+ span{
+    color: #022205;
+ }
+
